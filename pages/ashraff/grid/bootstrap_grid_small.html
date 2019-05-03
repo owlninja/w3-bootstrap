@@ -1,0 +1,71 @@
+<style type="text/css">
+	.col-style {
+       border: 4px solid white;
+       background-color: rgba(86,61,124,.15);
+       font-size: 2rem;
+    }
+</style>
+<section>
+    <div class="row">
+        <div class="col-md-12">
+          <div class="info-box container-fluid">
+            <h4><strong>Bootstrap Grid - Small Devices</strong></h4>
+            <table class="table table-striped">
+				  <tbody><tr>
+				    <th style="width:20%;">&nbsp;</th>
+				    <th style="width:20%;">Extra small</th>
+				    <th class="w3-dark-grey" style="width:20%;">Small</th>
+				    <th style="width:20%;">Medium</th>
+				    <th style="width:20%;">Large</th>
+				  </tr>
+				  <tr>
+				    <td><strong>Class prefix</strong></td>
+				    <td><code class="w3-codespan">.col-xs</code></td>
+				    <td class="w3-dark-grey"><code class="w3-codespan">.col-sm</code></td>
+				    <td><code class="w3-codespan">.col-md</code></td>
+				    <td><code class="w3-codespan">.col-lg</code></td>
+				  </tr>
+				  <tr>
+				    <td><strong>Screen width</strong></td>
+				    <td>&lt;768px</td>
+				    <td class="w3-dark-grey">&gt;=768px</td>
+				    <td>&gt;=992px</td>
+				    <td>&gt;=1200px</td>
+				  </tr>
+				</tbody></table>
+				<p>Assume we have a simple layout with two columns. We want the columns to be split 25%/75% for small devices.</p>
+				<div class="col-md-12 alert alert-warning alert-dismissible">
+			        <h4><i class="icon fa fa-warning"></i> Tip!</h4>
+			        <p>Small devices are defined as having a screen width from 768 pixels to 991 pixels.</p>
+			    </div>
+				<p>For small devices we will use the .col-sm-* classes.</p>
+				<p>We will add the following classes to our two columns:</p>
+				<pre style="font-weight: 600;">&lt;div class=&quot;col-sm-3&quot;&gt;....&lt;/div&gt;<br />&lt;div class=&quot;col-sm-9&quot;&gt;....&lt;/div&gt;</pre>
+				<p>Now Bootstrap is going to say "at the small size, look for classes with -sm- in them and use those".</p>
+          		<p>The following example will result in a 25%/75% split on small (and medium and large) devices. On extra small devices, it will automatically stack (100%):</p>
+          		<div class="col-md-12">
+		            <div class="col-sm-3 bg-gray-active color-palette col-style">col-sm-3</div>
+		            <div class="col-sm-9 bg-gray-active color-palette col-style">col-sm-9</div>
+		        </div>
+		        <div class="col-md-12">&nbsp;</div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="info-box container-fluid">
+            <h4><strong>Example</strong></h4>
+            <div class="col-md-12">
+              <div class="box box-solid">
+                <!-- /.box-header -->
+                <div class="box-body">
+                  <pre style="font-weight: 600;">&lt;div class=&quot;container-fluid&quot;&gt; <br /> &lt;h1&gt;Hello World!&lt;/h1&gt;<br /> &lt;div class=&quot;row&quot;&gt;<br /> &lt;div class=&quot;col-sm-3&quot; style=&quot;background-color:yellow;&quot;&gt;<br /> &lt;p&gt;Lorem ipsum...&lt;/p&gt;<br /> &lt;/div&gt;<br /> &lt;div class=&quot;col-sm-9&quot; style=&quot;background-color:pink;&quot;&gt;<br /> &lt;p&gt;Sed ut perspiciatis...&lt;/p&gt;<br /> &lt;/div&gt;<br /> &lt;/div&gt;<br /> &lt;/div&gt;</pre>
+                </div>
+                <div class="col-md-12 alert alert-info alert-dismissible">
+			        <h4><i class="icon fa fa-info"></i> Note</h4>
+			        <p>Make sure that the sum always adds up to 12.</p>
+			    </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</section>

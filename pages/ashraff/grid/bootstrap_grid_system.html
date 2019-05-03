@@ -1,0 +1,221 @@
+<style type="text/css">
+    div {
+        display: block;
+        
+    }
+    .col-style {
+       border: 4px solid white;
+       background-color: rgba(86,61,124,.15);
+       font-size: 2rem;
+    }
+</style>
+<section>
+    <div class="row">
+        <div class="col-md-12">
+          <div class="info-box container-fluid">
+            <h4><strong>Bootstrap Grid System</strong></h4>
+              <p>Bootstrap's grid system allows up to 12 columns across the page.</p>
+              <p>If you do not want to use all 12 column individually, you can group the columns together to create wider columns:</p>
+              <div class="col-md-12">
+                <div class="col-md-1 bg-gray-active color-palette col-style">span 1</div>
+                <div class="col-md-1 bg-gray-active color-palette col-style">span 1</div>
+                <div class="col-md-1 bg-gray-active color-palette col-style">span 1</div>
+                <div class="col-md-1 bg-gray-active color-palette col-style">span 1</div>
+                <div class="col-md-1 bg-gray-active color-palette col-style">span 1</div>
+                <div class="col-md-1 bg-gray-active color-palette col-style">span 1</div>
+                <div class="col-md-1 bg-gray-active color-palette col-style">span 1</div>
+                <div class="col-md-1 bg-gray-active color-palette col-style">span 1</div>
+                <div class="col-md-1 bg-gray-active color-palette col-style">span 1</div>
+                <div class="col-md-1 bg-gray-active color-palette col-style">span 1</div>
+                <div class="col-md-1 bg-gray-active color-palette col-style">span 1</div>
+                <div class="col-md-1 bg-gray-active color-palette col-style">span 1</div>
+              </div>
+              <div class="col-md-12">
+                <div class="col-md-4 bg-gray-active color-palette col-style">span 4</div>
+                <div class="col-md-4 bg-gray-active color-palette col-style">span 4</div>
+                <div class="col-md-4 bg-gray-active color-palette col-style">span 4</div>
+              </div>
+              <div class="col-md-12">
+                <div class="col-md-6 bg-gray-active color-palette col-style">span 4</div>
+                <div class="col-md-6 bg-gray-active color-palette col-style">span 4</div>
+              </div>
+              <div class="col-md-12">
+                <div class="col-md-12 bg-gray-active color-palette col-style">span 4</div>
+              </div>
+              <div class="col-md-12">&nbsp;</div>
+              <p>Bootstrap's grid system is responsive, and the columns will re-arrange depending on the screen size: On a big screen it might look better with the content organized in three columns, but on a small screen it would be better if the content items were stacked on top of each other.</p>
+              <div class="col-md-10 alert alert-warning alert-dismissible">
+                <h4><i class="icon fa fa-warning"></i> Tip!</h4>
+                Remember that grid columns should add up to twelve for a row. More than that, columns will stack no matter the viewport.
+              </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="info-box container-fluid">
+            <h4><strong>Grid Classes</strong></h4>
+            <div class="col-md-12">
+              <div class="box box-solid">
+                <div class="box-header with-border">
+                  <p>The Bootstrap grid system has four classes:</p>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                  <ul>
+                    <li><span style="color: #FA8072">xs</span> (for phones - screens less than 768px wide)</li>
+                    <li><span style="color: #FA8072">sm</span> (for tablets - screens equal to or greater than 768px wide)</li>
+                    <li><span style="color: #FA8072">md</span> (for small laptops - screens equal to or greater than 992px wide)</li>
+                    <li><span style="color: #FA8072">lg</span> (for laptops and desktops - screens equal to or greater than 1200px wide)</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="info-box container-fluid">
+            <h4><strong>Grid System Rules</strong></h4>
+            <div class="col-md-12">
+              <div class="box box-solid">
+                <div class="box-header with-border">
+                  <p>Some Bootstrap grid system rules:</p>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                  <ul>
+                    <li>Rows must be placed within a <span style="color: #FA8072">.container</span> (fixed-width) or <span style="color: #FA8072">.container-fluid</span> (full-width) for proper alignment and padding</li>
+                    <li>Use rows to create horizontal groups of columns</li>
+                    <li>Content should be placed within columns, and only columns may be immediate children of rows</li>
+                    <li>Predefined classes like <span style="color: #FA8072">.row</span> and <span style="color: #FA8072">.col-sm-4</span> are available for quickly making grid layouts</li>
+                    <li>Columns create gutters (gaps between column content) via padding. That padding is offset in rows for the first and last column via negative margin on <span style="color: #FA8072">.rows</span></li>
+                    <li>Grid columns are created by specifying the number of 12 available columns you wish to span. For example, three equal columns would use three <span style="color: #FA8072">.col-sm-4</span></li>
+                    <li>Column widths are in percentage, so they are always fluid and sized relative to their parent element</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="info-box container-fluid">
+            <h4><strong>Basic Structure of a Bootstrap Grid</strong></h4>
+            <div class="col-md-12">
+              <div class="box box-solid">
+                <div class="box-header with-border">
+                  <p>The following is a basic structure of a Bootstrap grid:</p>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                  <pre style="font-weight: 600;">&lt;div class=&quot;container&quot;&gt;<br />&lt;div class=&quot;row&quot;&gt; &lt;div class=&quot;col-*-*&quot;&gt;&lt;/div&gt;&lt;div class=&quot;col-*-*&quot;&gt;&lt;/div&gt;<br />&lt;/div&gt;<br />&lt;div class=&quot;row&quot;&gt;<br />&lt;div class=&quot;col-*-*&quot;&gt;&lt;/div&gt; &lt;div class=&quot;col-*-*&quot;&gt;&lt;/div&gt;<br />&lt;div class=&quot;col-*-*&quot;&gt;&lt;/div&gt; &lt;/div&gt; &lt;div class=&quot;row&quot;&gt; ... &lt;/div&gt; &lt;/div&gt;
+                  </pre>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="info-box container-fluid">
+            <h4><strong>Grid Options</strong></h4>
+            <div class="col-md-12">
+              <div class="box box-solid">
+                <div class="box-header with-border">
+                  <p>The following table summarizes how the Bootstrap grid system works across multiple devices:</p>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                  <div class="box">
+            <div class="box-header">
+              <h3 class="box-title">Striped Full Width Table</h3>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body no-padding">
+            <table class="table table-striped">
+                <tbody>
+                  <tr>
+                    <th style="width:21%;">&nbsp;</th>
+                    <th style="width:19%;">Extra small<br>&lt;768px</th>
+                    <th style="width:20%;">Small<br>&gt;=768px</th>
+                    <th style="width:21%;">Medium<br>&gt;=992px</th>
+                    <th style="width:19%;">Large<br>&gt;=1200px</th>
+                  </tr>
+                  <tr>
+                    <td><strong>Class prefix</strong></td>
+                    <td><code class="w3-codespan">.col-xs-</code></td>
+                    <td><code class="w3-codespan">.col-sm-</code></td>
+                    <td><code class="w3-codespan">.col-md-</code></td>
+                    <td><code class="w3-codespan">.col-lg-</code></td>
+                  </tr>
+                  <tr>
+                    <td><strong>Suitable for</strong></td>
+                    <td>Phones</td>
+                    <td>Tablets</td>
+                    <td>Small Laptops</td>
+                    <td>Laptops &amp; Desktops</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Grid behaviour</strong></td>
+                    <td>Horizontal at all times</td>
+                    <td>Collapsed to start, horizontal above breakpoints</td>
+                    <td>Collapsed to start, horizontal above breakpoints</td>
+                    <td>Collapsed to start, horizontal above breakpoints</td>        
+                  </tr>
+                  <tr>
+                    <td><strong>Container width</strong></td>
+                    <td>None (auto)</td>
+                    <td>750px</td>
+                    <td>970px</td>
+                    <td>1170px</td>
+                  </tr>
+                  <tr>
+                    <td><strong># of columns</strong></td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>12</td>    
+                  </tr>
+                  <tr>
+                    <td><strong>Column width</strong></td>
+                    <td>Auto</td>
+                    <td>~62px</td>
+                    <td>~81px</td>
+                    <td>~97px</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Gutter width</strong></td>
+                    <td>30px (15px on each side of a column)</td>
+                    <td>30px (15px on each side of a column)</td>
+                    <td>30px (15px on each side of a column)</td>
+                    <td>30px (15px on each side of a column)</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Nestable</strong></td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Offsets</strong></td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Column ordering</strong></td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                  </tr>
+                </tbody>
+            </table>
+            </div>
+            <!-- /.box-body -->
+          </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</section>

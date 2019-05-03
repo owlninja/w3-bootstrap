@@ -1,0 +1,211 @@
+<section class="content">
+    <!-- Small boxes (Stat box) -->
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="box box-solid">
+                <div class="box">
+                    <div class="box-header with-border">
+                        <h3 class="box-title">Bootstrap Grid System</h3>
+                    </div>
+                    <!-- /.box-header -->
+                    <div class="box-body">
+                        <p>Bootstrap's grid system allows up to 12 columns across the page.</p>
+                        <p>If you do not want to use all 12 columns individually, you can group the columns
+                            together to create wider columns:</p>
+                        <div class="table-responsive">
+                            <table class="table table-bordered" style="background-color: #d5d5d5">
+                                <tbody>
+                                <tr>
+                                    <td align="center">span 1</td>
+                                    <td align="center">span 1</td>
+                                    <td align="center">span 1</td>
+                                    <td align="center">span 1</td>
+                                    <td align="center">span 1</td>
+                                    <td align="center">span 1</td>
+                                    <td align="center">span 1</td>
+                                    <td align="center">span 1</td>
+                                    <td align="center">span 1</td>
+                                    <td align="center">span 1</td>
+                                    <td align="center">span 1</td>
+                                    <td align="center">span 1</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="4" align="center">&nbsp;span 4</td>
+                                    <td colspan="4" align="center">&nbsp;span 4</td>
+                                    <td colspan="4" align="center">&nbsp;span 4</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="4" align="center">span 4</td>
+                                    <td colspan="8" align="center">span 8</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="6" align="center">span 6</td>
+                                    <td colspan="6" align="center">span 6</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="12" align="center">span 12</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p>Bootstrap's grid system is responsive, and the columns will re-arrange automatically
+                            depending on the screen size.</p>
+                    </div>
+                    <!-- /.box-body -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.row -->
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="box box-solid">
+                <div class="box">
+                    <div class="box-header with-border">
+                        <h3 class="box-title">Grid Classes</h3>
+                    </div>
+                    <div class="box-body">
+                        <p>The Bootstrap grid system has four classes:</p>
+                        <ul>
+                            <li><code>xs</code> (for phones - screens less than 768px wide)</li>
+                            <li><code>sm</code> (for tablets - screens equal to or greater than 768px wide)</li>
+                            <li><code>md</code> (for small laptops - screens equal to or greater than 992px
+                                wide)
+                            </li>
+                            <li><code>lg</code> (for laptops and desktops - screens equal to or greater than
+                                1200px wide)
+                            </li>
+                        </ul>
+                        <p>The classes above can be combined to create more dynamic and flexible layouts.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="box box-solid">
+                <div class="box">
+                    <div class="box-header with-border">
+                        <h3 class="box-title">Basic Structure of a Bootstrap Grid</h3>
+                    </div>
+                    <div class="box-body">
+                        <p>The following is a basic structure of a Bootstrap grid:</p>
+                        <div class="callout" style="background-color: #d9f1df; border-left: 6px solid #00ff00;">
+                            <code>
+                                &lt;div class="row"&gt;
+                                <br/>
+                                <span style="padding-left: 20px;">&lt;div class="col-*-*"&gt;&lt;/div&gt;</span>
+                                <br/>
+                                <span style="padding-left: 20px;">&lt;div class="col-*-*"&gt;&lt;/div&gt;</span>
+                                <br/>
+                                &lt;/div&gt;
+                                <br/>
+                                &lt;div class="row"&gt;
+                                <br/>
+                                <span style="padding-left: 20px;">&lt;div class="col-*-*"&gt;&lt;/div&gt;</span>
+                                <br/>
+                                <span style="padding-left: 20px;">&lt;div class="col-*-*"&gt;&lt;/div&gt;</span>
+                                <br/>
+                                <span style="padding-left: 20px;">&lt;div class="col-*-*"&gt;&lt;/div&gt;</span>
+                                <br/>
+                                &lt;/div&gt;
+                                <br/>
+                                &lt;div class="row"&gt;
+                                <br/>
+                                <span style="padding-left: 20px;">--</span>
+                                <br/>
+                                &lt;/div&gt;
+                            </code>
+                        </div>
+
+                        <p>First; create a row <code>(&lt;div class="row"&gt;)</code>. Then, add the desired
+                            number of columns (tags with appropriate .col-*-* classes). Note that numbers in
+                            .col-*-* should always add up to 12 for each row.</p>
+                        <p>Below we have collected some examples of basic Bootstrap grid layouts.</p>
+                    </div>
+                </div>
+                <!-- /.box-body -->
+            </div>
+            <!-- /.box -->
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="box box-solid">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Three Equal Columns</h3>
+                </div>
+                <div class="box-body">
+                    <div class="table-responsive">
+                        <table class="table table-bordered" style="background-color: #d5d5d5">
+                            <tbody>
+                            <tr>
+                                <td colspan="4" align="center">&nbsp;.col-sm-4</td>
+                                <td colspan="4" align="center">&nbsp;.col-sm-4</td>
+                                <td colspan="4" align="center">&nbsp;.col-sm-4</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p>The following example shows how to get a three equal-width columns starting at tablets and scaling to large desktops.</p>
+                    <p>On mobile phones or screens that are less than 768px wide, the columns will automatically stack:</p>
+                    <div class="callout" style="background-color: #d9f1df; border-left: 6px solid #00ff00;">
+                        <code>
+                            &lt;div class="row"&gt;
+                            <br/>
+                            <span style="padding-left: 20px;">&lt;div class="col-sm-4"&gt;.col-sm-4&lt;/div&gt;</span>
+                            <br/>
+                            <span style="padding-left: 20px;">&lt;div class="col-sm-4"&gt;.col-sm-4&lt;/div&gt;</span>
+                            <br/>
+                            <span style="padding-left: 20px;">&lt;div class="col-sm-4"&gt;.col-sm-4&lt;/div&gt;</span>
+                            <br/>
+                            &lt;/div&gt;
+                        </code>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="box box-solid">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Two Unequal Columns</h3>
+                </div>
+                <div class="box-body">
+                    <div class="table-responsive">
+                        <table class="table table-bordered" style="background-color: #d5d5d5">
+                            <tbody>
+                            <tr>
+                                <td colspan="4" align="center">&nbsp;.col-sm-4</td>
+                                <td colspan="8" align="center">&nbsp;.col-sm-8</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p>The following example shows how to get two various-width columns starting at tablets and scaling to large desktops:</p>
+                    <div class="callout" style="background-color: #d9f1df; border-left: 6px solid #00ff00;">
+                        <code>
+                            &lt;div class="row"&gt;
+                            <br/>
+                            <span style="padding-left: 20px;">&lt;div class="col-sm-4"&gt;.col-sm-4&lt;/div&gt;</span>
+                            <br/>
+                            <span style="padding-left: 20px;">&lt;div class="col-sm-8"&gt;.col-sm-8&lt;/div&gt;</span>
+                            <br/>
+                            &lt;/div&gt;
+                        </code>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="callout" style="background-color: #ffffcc; border-left: 6px solid #ffeb3b;">
+                <p>Tip: You will learn more about Bootstrap grids later in this tutorial.</p>
+            </div>
+        </div>
+        <!-- ./col -->
+    </div>
+</section>
