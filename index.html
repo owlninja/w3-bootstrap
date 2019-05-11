@@ -587,50 +587,49 @@
          var id = $(this).attr('id');
           switch(id){
                case "getstart-tab":
-                 $( "#getstart" ).load( "/pages/danil/get-start.html", function( response, status, xhr ) {
+                 $( "#getstart" ).load( "./pages/danil/get-start.html", function( response, status, xhr ) {
                   if ( status == "error" ) {
                     message(xhr);
                   }
                 });
              break;
              case "gridbasic-tab":
-                  $( "#gridbasic" ).load( "/pages/danil/grid-basic.html", function( response, status, xhr ) {
+                  $( "#gridbasic" ).load( "./pages/danil/grid-basic.html", function( response, status, xhr ) {
                     if ( status == "error" ) {
                       message(xhr);
                     }
                   });
              break;
              case "typography-tab":
-                  $( "#typography" ).load( "/pages/danil/typography.html", function( response, status, xhr ) {
+                  $( "#typography" ).load( "./pages/danil/typography.html", function( response, status, xhr ) {
                     if ( status == "error" ) {
                       message(xhr);
                     }
                   });
              break;
              case "grid-tab":
-                $( "#grid" ).load( "/pages/ashraff/grid/bootstrap_grid_system.html", function( response, status, xhr ) {
+                $( "#grid" ).load( "./pages/ashraff/grid/bootstrap_grid_system.html", function( response, status, xhr ) {
                   if ( status == "error" ) {
                     message(xhr);
                   }
                 });
              break;
              case "stack-tab":
-                $( "#stack" ).load( "/pages/ashraff/grid/bootstrap_grid_stacked_to_horizontal.html", function( response, status, xhr ) {
+                $( "#stack" ).load( "./pages/ashraff/grid/bootstrap_grid_stacked_to_horizontal.html", function( response, status, xhr ) {
                   if ( status == "error" ) {
                     message(xhr);
                   }
                 });
              break;
              case "gridsmall-tab":
-                $( "#gridsmall" ).load( "/pages/ashraff/grid/bootstrap_grid_small.html", function( response, status, xhr ) {
+                $( "#gridsmall" ).load( "./pages/ashraff/grid/bootstrap_grid_small.html", function( response, status, xhr ) {
                   if ( status == "error" ) {
                     message(xhr);
                   }
                 });
              break;
              case "gridmedium-tab":
-                $("#gridmedium").load("/pages/ashraff/grid/bootstrap_grid_medium.html");
-                $( "#gridmedium" ).load( "/pages/ashraff/grid/bootstrap_grid_medium.html", function( response, status, xhr ) {
+                $( "#gridmedium" ).load( "./pages/ashraff/grid/bootstrap_grid_medium.html", function( response, status, xhr ) {
                   if ( status == "error" ) {
                     message(xhr);
                   }
